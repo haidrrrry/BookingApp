@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110791880280",
+    "project_id": "booking-app-d21f8",
+    "storage_bucket": "booking-app-d21f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110791880280:android:b23ed124c8cd23666ee42d",
+        "android_client_info": {
+          "package_name": "com.hellllr.bookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_9dFe0DXuQFa5h7AlTe80iqv0AyxgL10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

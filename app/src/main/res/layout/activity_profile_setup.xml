@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Setup"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/lato"
+
+        android:textColor="@color/maincolor"
+        android:layout_marginTop="@dimen/_16sdp"
+
+        />
+    <EditText
+        android:textColorHint="@color/black"
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/maincolor"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/bioEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bio"
+        android:textColorHint="@color/black"
+        android:textColor="@color/maincolor"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/adressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adress"
+        android:textColorHint="@color/black"
+        android:textColor="@color/maincolor"
+        android:layout_marginTop="8dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/btnbg"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

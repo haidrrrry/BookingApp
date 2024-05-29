@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:src="@drawable/profile"
+/>
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/bioTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/adreessTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adress"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:textSize="16sp" />
+
+</LinearLayout>
